@@ -1,7 +1,28 @@
-# backend/.gitignore
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Virtual Environment
 venv/
+
+# Environment variables
 .env
+
+# Logs
 *.log
+
+# SQLite / local DB files
 *.sqlite3
+*.db
+
+# IDEs and tooling
+.vscode/
+.idea/
+.mypy_cache/
+*.swp
+*.swo
+
+# Others (if using Docker or migrations)
+*.pid
+*.bak
+*.tmp
